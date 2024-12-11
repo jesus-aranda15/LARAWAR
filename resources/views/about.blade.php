@@ -293,82 +293,7 @@ body {
                     <p>Creemos que existimos para hacer excelentes equipos, nos enfocamos en la innovación, crecimiento personal, social y laboral, promoviendo el acceso a la tecnología y la inclusión digital. Ser la empresa líder en empoderar a individuos para que puedan ayudar a otros a cubrir la necesidad de armar computadoras.</p>
                 </div>
             </div>
-
-
-         <!-- ESTA SECCION CONTIENE LA PARTE DE CONTACTANOS, DEFINICION DE LA IMAGEN Y AJUSTES ASI COMO EL BOTON QUE REDIRECCIONA A GMAIL -->
-
-
-        </section>
-        <section class="cta-section">
-            <section class="cta-section">
-                <svg id="OP_LOGO" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2463.76 1104.08">
-                    <defs>
-                        <style>
-                            .cls-1 {
-                                fill: #bfbfbf;
-                            }
-                        </style>
-                    </defs>
-                    <path class="cls-1" d="m1212.72,428.79v663.04H94.15c-30.52,0-55.25-24.74-55.25-55.25v-165.79h889.84c30.52,0,55.25-24.74,55.25-55.25v-386.75h228.72Z"/>
-                    <path class="cls-1" d="m2424.86,69.78v640c0,31.48-25.52,57.01-57.01,57.01h-891.09v325.05h-228.72V428.79h228.72v116.99h671.8c30.52,0,55.25-24.74,55.25-55.25v-201.99c0-30.52-24.74-55.25-55.25-55.25H315.16c-30.52,0-55.25,24.74-55.25,55.25v388.66H38.9V69.78c0-31.78,25.76-57.53,57.53-57.53h2270.89c31.78,0,57.54,25.76,57.54,57.54Z"/>
-                </svg>
-                <h2>ÚNETE A NOSOTROS</h2>
-                <p>SI TE INTERESA NUESTRO CONTENIDO, NO DUDES EN MANDARNOS UN MENSAJE, PUES QUEREMOS FORJAR A LOS MEJORES Y QUE TIZIMIN CREZCA TECONOLOGICAMENTE ¡TE ESPERAMOS!</p>
-                <div class="slogan-container">
-                    <p><strong>¡LA TECNOLOGÍA, NUESTRO PODER!</strong></p>
-                </div>
-
-
-                 <!-- ESTA SECCION CONTIENE EL CARRUSEL DE IMAGENES, 
-ademas Crea un enlace interactivo que los usuarios pueden hacer click, href indica el destino al que redirige el enlace-->
-                 
-
-                <a href="mailto:21890221@ittizimin.edu.mx">CONTÁCTANOS</a>
-            </section>
-
-
-            <!-- AJUSTES DE LAS LETRAS, TIPO, JUSTIFICACION Y TAMAÑO-->
-
-
-            <style>
-                .cta-section svg {
-                    width: 300px; /* Tamaño moderado para el logo */
-                    margin-bottom: 2px; /* Reducido margen debajo del logo */
-                }
-                .cta-section p:last-child {
-                    margin-top: 2px; /* Reduce el espacio entre el texto y el eslogan */
-                }
-                .slogan-container {
-                    text-align: center; /* Centra el eslogan */
-                    margin-top: 2px; /* Reducido margen entre el texto y el eslogan */
-                }
-            </style>
-
-
-            <!-- ESTA SECCION CONTIENE LA INFORMACION DE LO QUE IDENTIFICA A LA EMPRESA DIVIDAD EN BLOQUES-->
-
-
-        </section>
-        <section class="stats">
-            <div>
-                <dt>TRABAJO EN EQUIPO</dt>
-                <dd>liderazgo</dd>
-            </div>
-            <div>
-                <dt>CLIENTES SATISFECHOS</dt>
-                <dd>calidad</dd>
-            </div>
-            <div>
-                <dt>CRECIMIENTO PERSONAL</dt>
-                <dd>competitivo</dd>
-            </div>
-            <div>
-                <dt>PERSONAL</dt>
-                <dd>profesional</dd>
-            </div>
-
-
-    <!-- ESTA SECCION CONTIENE A LOS INTEGRANTES DEL EQUIPO, ALMACENADO EN UN CUADRO, DONDE SE DIVIDEN EN DOS FILAS-->
+              <!-- ESTA SECCION CONTIENE A LOS INTEGRANTES DEL EQUIPO, ALMACENADO EN UN CUADRO, DONDE SE DIVIDEN EN DOS FILAS-->
             </section>
             <section id="slider">
                 <h2 class="slider-title">CONOCE A LAS PERSONAS DETRAS DE OVERPOWER DYNAMICS</h2>
@@ -443,7 +368,79 @@ ademas Crea un enlace interactivo que los usuarios pueden hacer click, href indi
                     color: #333; /* Color del texto */
                     font-weight: bold; /* Negrita para destacar los nombres */
                 }
-            </style>           
+            </style> 
+
+         <!-- ESTA SECCION CONTIENE LA PARTE DE CONTACTANOS, DEFINICION DE LA IMAGEN Y AJUSTES ASI COMO EL BOTON QUE REDIRECCIONA A GMAIL -->
+
+
+        </section>
+        <section class="cta-section">
+            <section class="cta-section">
+                <svg id="OP_LOGO" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2463.76 1104.08">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #bfbfbf;
+                            }
+                        </style>
+                    </defs>
+                    <path class="cls-1" d="m1212.72,428.79v663.04H94.15c-30.52,0-55.25-24.74-55.25-55.25v-165.79h889.84c30.52,0,55.25-24.74,55.25-55.25v-386.75h228.72Z"/>
+                    <path class="cls-1" d="m2424.86,69.78v640c0,31.48-25.52,57.01-57.01,57.01h-891.09v325.05h-228.72V428.79h228.72v116.99h671.8c30.52,0,55.25-24.74,55.25-55.25v-201.99c0-30.52-24.74-55.25-55.25-55.25H315.16c-30.52,0-55.25,24.74-55.25,55.25v388.66H38.9V69.78c0-31.78,25.76-57.53,57.53-57.53h2270.89c31.78,0,57.54,25.76,57.54,57.54Z"/>
+                </svg>
+                <h2>ÚNETE A NOSOTROS</h2>
+                <p>SI TE INTERESA NUESTRO CONTENIDO, NO DUDES EN MANDARNOS UN MENSAJE, PUES QUEREMOS FORJAR A LOS MEJORES Y QUE TIZIMIN CREZCA TECONOLOGICAMENTE ¡TE ESPERAMOS!</p>
+                <div class="slogan-container">
+                    <p><strong>¡LA TECNOLOGÍA, NUESTRO PODER!</strong></p>
+                </div>
+
+
+                 <!-- ESTA SECCION CONTIENE EL CARRUSEL DE IMAGENES, 
+ademas Crea un enlace interactivo que los usuarios pueden hacer click, href indica el destino al que redirige el enlace-->
+                 
+
+                <a href="mailto:21890221@ittizimin.edu.mx">CONTÁCTANOS</a>
+            </section>
+
+
+            <!-- AJUSTES DE LAS LETRAS, TIPO, JUSTIFICACION Y TAMAÑO-->
+
+
+            <style>
+                .cta-section svg {
+                    width: 300px; /* Tamaño moderado para el logo */
+                    margin-bottom: 2px; /* Reducido margen debajo del logo */
+                }
+                .cta-section p:last-child {
+                    margin-top: 2px; /* Reduce el espacio entre el texto y el eslogan */
+                }
+                .slogan-container {
+                    text-align: center; /* Centra el eslogan */
+                    margin-top: 2px; /* Reducido margen entre el texto y el eslogan */
+                }
+            </style>
+
+
+            <!-- ESTA SECCION CONTIENE LA INFORMACION DE LO QUE IDENTIFICA A LA EMPRESA DIVIDAD EN BLOQUES-->
+
+
+        </section>
+        <section class="stats">
+            <div>
+                <dt>TRABAJO EN EQUIPO</dt>
+                <dd>liderazgo</dd>
+            </div>
+            <div>
+                <dt>CLIENTES SATISFECHOS</dt>
+                <dd>calidad</dd>
+            </div>
+            <div>
+                <dt>CRECIMIENTO PERSONAL</dt>
+                <dd>competitivo</dd>
+            </div>
+            <div>
+                <dt>PERSONAL</dt>
+                <dd>profesional</dd>
+            </div>          
             </div>   
     </main>
 
