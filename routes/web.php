@@ -28,6 +28,14 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/politica-privacidad', function () {
+  return view('politica-privacidad');
+});
+
+Route::get('/terminos-servicio', function () {
+  return view('terminos-servicio');
+});
+
 Route::get('/contact', function () {
     return view('contact');
 });
