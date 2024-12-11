@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\ComputerController;
+use App\Http\Controllers\SessionsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
 //-----------------Rutas de las vistas de shop y shop single-------------------
@@ -19,9 +20,9 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
+// Route::get('/index', function () {
+//     return view('index');
+// });
 
 Route::get('/about', function () {
     return view('about');
@@ -34,6 +35,13 @@ Route::get('/contact', function () {
 Route::get('/mantenimiento', function () {
     return view('mantenimiento');
 });
+
+Route::view('/login', 'login')->name('login');
+Route::view('/register', 'register')->name ('register');
+Route::view('/index', 'index')->name('index');
+
+Route::post('/register',[SessionsController::class, 'register'])->name('validacion');
+Route::post('/login',[SessionsController::class, 'login'])->name('Sesion iniciada');
 
 //Route::get('/shop-single', function () {
   //  return view('shop-single');

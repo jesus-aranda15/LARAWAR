@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+{{-- <head>
     <title>OVERPOWER - Product Detail</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -169,6 +169,46 @@ https://templatemo.com/tm-559-zay-shop
 </script>
 <!-- End Slider Script -->
 
+</body> --}}
+
+<!----------------------------------------------------------------------------->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title', 'Acceder a la cuenta')</title>
+    <!-- Agrega tus enlaces a CSS (por ejemplo, Bootstrap) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Agregar aquí tus otros estilos o librerías -->
+    <!-- Incluye tu archivo CSS -->
+    <link href="{{ asset('css/barra.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra con logo arriba -->
+    {{-- <div class="navbar-logo-bar bg-dark text-white">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="{{ asset('img/OPDY.svg') }}" alt="Logo" class="logo" />
+            </a>
+        </div>
+    </div> --}}
+
+    <div class="navbar-logo-bar">
+       <div class="container">
+           <a href="{{ url('/') }}" class="navbar-brand">
+               <img src="{{ asset('img/OPDY.svg') }}" alt="Logo" class="logo" />
+           </a>
+       </div>
+   </div>
+   
+    <!-- Fin barra con logo -->
+
+    <!-- Contenido principal -->
+    <div class="container mt-5">
+        @yield('content')
+    </div>
+
+    <!-- Agregar JS al final (si es necesario) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -16,7 +16,11 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="{{asset('css/fontawesome.min.css')}}">
-<!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--
     
 TemplateMo 559 Zay Shop
 
@@ -93,15 +97,41 @@ https://templatemo.com/tm-559-zay-shop
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
+
+                    <!--------------------------------------->
+                    <div class="dropdown">
+                        <a class="nav-icon position-relative text-decoration-none" href="#" id="userMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userMenu">
+                            <li><a class="dropdown-item" href={{ route('login') }}>Iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href={{ route('register') }}>Regístrate</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="/rewards">ROG Elite Rewards</a></li>
+                            <li><a class="dropdown-item" href="/settings">Ajustes</a></li>
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="/orders">Revisar mi pedido</a></li>
+                            <li><a class="dropdown-item" href="/wishlist">Mi lista de deseos</a></li>
+                            <li><a class="dropdown-item" href="/faq">Preguntas frecuentes</a></li>
+                        </ul>
+                    </div>
+                    
+                        
                 </div>
             </div>
 
         </div>
     </nav>
+    <!-- Close Header -->
+                    {{-- <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a> --}}
+                {{-- </div>
+            </div>
+
+        </div>
+    </nav> --}}
     <!-- Close Header -->
 
     <!-- Modal -->
@@ -120,7 +150,6 @@ https://templatemo.com/tm-559-zay-shop
             </form>
         </div>
     </div>
-
 
 
     <!-- Start Banner Hero -->
@@ -420,12 +449,24 @@ https://templatemo.com/tm-559-zay-shop
     </footer>
     <!-- End Footer -->
 
-    <!-- Start Script -->
-    <script src="asset/js/jquery-1.11.0.min.js"></script>
-    <script src="asset/js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="asset/js/bootstrap.bundle.min.js"></script>
-    <script src="asset/js/templatemo.js"></script>
-    <script src="asset/js/custom.js"></script>
+    <<!-- Start Script -->
+    <script src="{{asset('js/jquery-1.11.0.min.js')}}"></script>
+    <script src="{{asset('js/jquery-migrate-1.2.1.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('js/templatemo.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('click', function (e) {
+            const dropdown = document.querySelector('.dropdown-menu');
+            if (!e.target.closest('.dropdown') && dropdown.classList.contains('show')) {
+                dropdown.classList.remove('show');
+            }
+        });
+    </script>  
+    
     <!-- End Script -->
 </body>
 

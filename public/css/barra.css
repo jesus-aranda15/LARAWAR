@@ -1,0 +1,29 @@
+/* Estilo para la barra con el logo */
+.navbar-logo-bar {
+    padding: 10px 0; /* Ajusta el tamaño de la barra */
+    background-color: #000000; /* Color de fondo de la barra */
+    height: 65px; /* Altura fija de la barra */
+    display: flex;
+    justify-content: flex-start; /* Esto mueve el logo de izquierda a derecha */
+    align-items: center; /* Centra el logo verticalmente */
+}
+
+/* Estilo para el logo */
+.navbar-logo-bar .logo {
+    width: 280px;  /* Ajusta el tamaño máximo del logo */
+    height: auto; /* Mantiene la proporción */
+    max-height: 100px; /* Limita la altura máxima del logo */
+    object-fit: contain; /* Asegura que el logo no se deforme */
+}
+
+/* Responsivo - para pantallas pequeñas */
+@media (max-width: 767px) {
+    .navbar-logo-bar .logo {
+        max-width: 100px;  /* Ajusta el tamaño del logo en pantallas pequeñas */
+    }
+}
+
+
+
+
+
